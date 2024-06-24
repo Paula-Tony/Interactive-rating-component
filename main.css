@@ -11,15 +11,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
   min-height: 100vh;
   margin: auto;
   background-color: hsl(216, 12%, 8%);
-}
-@media (max-width: 575px) {
-  .container {
-    width: 375px;
-  }
+  padding: 1rem;
 }
 .face,
 .back {
